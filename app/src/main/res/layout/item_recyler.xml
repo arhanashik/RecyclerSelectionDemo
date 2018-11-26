@@ -6,8 +6,8 @@
 
     <data>
         <variable
-            name="articleEntity"
-            type="com.blackspider.recyclerselectiondemo.data.article.ArticleEntity" />
+            name="artistEntity"
+            type="com.blackspider.recyclerselectiondemo.data.artist.ArtistEntity" />
     </data>
 
     <com.google.android.material.circularreveal.cardview.CircularRevealCardView
@@ -38,7 +38,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="@{articleEntity.writerName}"
+                android:text="@{artistEntity.artistName}"
                 tools:text="Name"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"
@@ -48,11 +48,11 @@
                 app:layout_constraintEnd_toStartOf="@+id/check_box" />
 
             <TextView
-                android:id="@+id/tv_timestamp"
+                android:id="@+id/tv_birthday"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@{articleEntity.timeStamp}"
-                tools:text="5 min ago"
+                android:text="@{artistEntity.artistBirthday}"
+                tools:text="Birthday: 1 Jan, 1991"
                 android:textSize="12sp"
                 app:layout_constraintStart_toStartOf="@+id/tv_name"
                 app:layout_constraintTop_toBottomOf="@+id/tv_name"
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:paddingBottom="5dp"
-                android:text="@{articleEntity.article}"
+                android:text="@{artistEntity.artistQuotes}"
                 tools:text="Hello there"
                 android:textColor="@android:color/black"
                 android:textSize="16sp"

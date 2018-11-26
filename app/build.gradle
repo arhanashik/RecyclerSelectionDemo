@@ -34,7 +34,12 @@ dependencies {
     // LiveData + MainViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:2.0.0"
 
+    //Circular Image view
     implementation 'com.mikhaellopez:circularimageview:3.1.0'
+
+    //Image loader
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0'

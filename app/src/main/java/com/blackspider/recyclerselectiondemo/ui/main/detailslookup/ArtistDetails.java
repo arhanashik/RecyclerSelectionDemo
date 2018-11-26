@@ -1,4 +1,4 @@
-package com.blackspider.recyclerselectiondemo.ui.main.adapter;
+package com.blackspider.recyclerselectiondemo.ui.main.detailslookup;
 /*
  *  ****************************************************************************
  *  * Created by : Arhan Ashik on 11/20/2018 at 1:59 PM.
@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.selection.ItemDetailsLookup;
 
-public class ArticleDetails extends ItemDetailsLookup.ItemDetails<Long> {
+public class ArtistDetails extends ItemDetailsLookup.ItemDetails<Long> {
 
     private long position;
 

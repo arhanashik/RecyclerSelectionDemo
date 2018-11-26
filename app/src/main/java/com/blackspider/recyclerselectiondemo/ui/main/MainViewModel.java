@@ -11,17 +11,17 @@ package com.blackspider.recyclerselectiondemo.ui.main;
  */
 
 import com.blackspider.recyclerselectiondemo.R;
-import com.blackspider.recyclerselectiondemo.data.article.ArticleEntity;
+import com.blackspider.recyclerselectiondemo.data.artist.ArtistEntity;
 
 import androidx.databinding.ObservableInt;
 
 public class MainViewModel {
 
-    private ArticleEntity articleEntity;
+    private ArtistEntity artistEntity;
 
     public final ObservableInt textColor = new ObservableInt(R.color.colorPrimary);
 
-    public MainViewModel(ArticleEntity articleEntity) {
-        this.articleEntity = articleEntity;
+    public MainViewModel(ArtistEntity artistEntity) {
+        this.artistEntity = artistEntity;
     }
 }
